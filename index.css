@@ -1,0 +1,64 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+
+
+.navbar {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    padding: 10px;
+   
+  }
+  .navbar a {
+    margin-right: 20px;
+    text-decoration: none;   
+  }
+  
+  .navbar a:hover{
+    color: rgb(245, 30, 30);
+  }
+
+  .header-text{
+    margin-top: 20%;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+.header-text h1 span{
+    color:  rgb(245, 30, 30);
+}
+
+
+
+
+.floating-animation {
+  position: relative;
+  animation-name: floatAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.floating-text {
+  font-size: 38px;
+  color: red;
+ text-align: center;
+ 
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

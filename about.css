@@ -1,0 +1,112 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+}
+h3{
+  color:   rgb(245, 30, 30);
+  justify-content: space-between;
+  font-size: 280%;
+  padding: 0px 0px 0px 10px;
+}
+.Hii{
+    color:   rgb(245, 30, 30);
+}
+p{
+   margin-top: -10px;
+    padding-left: 20px;
+    
+}
+h1 {
+    padding-left: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:   rgb(245, 30, 30);
+  }
+  
+  .education {
+    margin-bottom: 10px;
+  }
+  
+  .education h2 {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .education .institution {
+    font-weight: bold;
+  }
+  
+  .education .degree {
+    font-style: italic;
+  }
+  
+  .education .year {
+    color:goldenrod;
+  }
+  .internship h1 {
+    padding-left: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:   rgb(245, 30, 30);
+  }
+  
+  .internship h3 {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .internship .company {
+    font-weight: bold;
+  }
+  
+  
+  .internship .duration {
+    color: goldenrod;
+  }
+
+  .projects h3{
+    color: green;
+  }
+  .internship h3{
+    color: green;
+  }
+  .education h2{
+    color: green;
+  }
+  .skills h3{
+    color: green;
+  }
+  .thanks h1{
+    text-align: center;
+    color: moccasin;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 100px;
+  }
+  a {
+    margin-right: 20px;
+    text-decoration: none;   
+    color: white;
+  }
+   a:hover{
+    color: rgb(245, 30, 30);
+  }
+  .home-button {
+    background-color:red;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .home-button:hover {
+    background-color:white;
+    color: black;
+  }
